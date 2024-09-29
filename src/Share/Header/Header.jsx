@@ -1,28 +1,26 @@
- 
-
+import logo from '../../assets/logo-dark.png.png'
+import './header.css'
 const Header = () => {
      return (
-          <>
-              <div className="navbar bg-base-100">
-  <div className="flex-1">
-    <a className="btn btn-ghost text-xl">daisyUI</a>
-  </div>
-  <div className="flex-none">
-    <ul className="menu menu-horizontal px-1">
-      <li><a>Link</a></li>
-      <li>
-        <details>
-          <summary>Parent</summary>
-          <ul className="bg-base-100 rounded-t-none p-2">
-            <li><a>Link 1</a></li>
-            <li><a>Link 2</a></li>
-          </ul>
-        </details>
-      </li>
-    </ul>
-  </div>
-</div>
-          </>
+          <head>
+          
+               <div className="logo">
+                     <a href="#"><img src={logo} alt="logo" /></a>
+               </div>
+                
+                    <ul className='menu-list'>
+                         <li className='lists'><a href="#">Home  </a></li>
+                         <li className='lists'><a href="#">Blog</a></li>
+                         <li className='lists'><a href="#">Distinction</a></li>
+                         <li className='lists'><a href="#">Page</a></li>
+                         <li className='lists'><a href="#">Contact</a></li>
+                    </ul>
+                    
+                <div className="book">
+                    <button className='book-btn'>Book Trip</button>
+                </div>
+         
+          </head>
      );
 };
 
