@@ -104,3 +104,61 @@
      border-radius: 20px;
      border: 1px solid rgba(255,255,255 0.1);
 }
+
+/* responsive */
+@media (max-width: 768px) {
+     .banner{
+          height: 130vh;
+     }
+      .banner-content{
+          flex-direction: column;
+          margin-top: -70px;
+          /* height: 100vh; */
+      }
+     .left-side-b{
+          margin-top: 60%;
+          /* border: 2px solid red; */
+          width: 100%;
+          left: 0;
+     }
+     .left-top-head{
+          top: 50%;
+          left: 70px;
+          background: #FEFA17;
+          border-radius: 50px;
+      }
+      .left-top-head span{
+          margin-top: 50%;
+          font-weight: 800;
+          font-size: 16px;
+          line-height: 26px;
+          color: #000000;
+          
+      }
+      .right-side-b{
+          top: 98px;
+          right: 4%;
+          width: 450px;
+          /* padding: 5px; */
+          /* margin-left: 300px; */
+      }
+      .left-main-head{
+          margin-top: 10px;
+          width: 100%;
+          font-size: 42px;
+           
+      }
+       
+      .app{
+          margin-top: 20px;
+          display: flex;
+          gap: 20px;
+     }
+     .google-app{
+          width: 100px;
+          height: 40px;
+     }
+     
+ }
+ 
+ 

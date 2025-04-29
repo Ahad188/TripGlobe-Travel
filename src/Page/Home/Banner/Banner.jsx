@@ -1,5 +1,5 @@
 import './banner.css'
-import appstore from '../../../assets/Link → appstore.png.png';
+import appStore from '../../../assets/Link → appstore.png.png';
 import google from '.././../../assets/Link → googleplay.png.jpg'
  
 const Banner = () => {
@@ -17,7 +17,7 @@ const Banner = () => {
                     </ul>
                     <div className="app">
                          <div className="google-app"><a href="#"><img src={google} alt="google" /></a></div>
-                         <div className="google-app"><a href="#"><img src={appstore} alt="google" /></a></div>
+                         <div className="google-app"><a href="#"><img src={appStore} alt="google" /></a></div>
                     </div>
                </div>
                <div className="right-side-b">
@@ -29,9 +29,9 @@ const Banner = () => {
                          <button className='btn bg-white hover:bg-black border-none outline-none font-[400px] text-[14px] leading-[24px] text-[#000000] hover:text-[#fff]'>Activities</button>
                     </ul>
                     {/*  */}
-                    <div className='w-[464px] h-[193px] border border-red-600 mx-auto rounded-md mt-4 glass'>
+                    <div className='md:w-[464px] h-[193px] border border-red-600 mx-auto rounded-md mt-4 glass p-2'>
                          <div className="flex justify-around">
-                              <div className="right w-[198px] ms-3">
+                              <div className="right md:w-[198px] ms-3">
                                {/*  */}
                               <label className="form-control w-full max-w-xs ">
                                    <div className="label">
@@ -59,7 +59,7 @@ const Banner = () => {
                               </label>                               
                               </div>
                               {/*  */}
-                              <div className="left w-[198px]">
+                              <div className="left md:w-[198px]">
                                     <label className="form-control w-full max-w-xs ">
                                    <div className="label">
                                         <span className="label-text text-[#000]">Check In</span>   
