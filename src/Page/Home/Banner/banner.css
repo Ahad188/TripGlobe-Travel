@@ -3,7 +3,7 @@
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
-     height: 88.6vh;
+     height: 90.7vh;
      position: relative;
 }
 .banner::before{
@@ -11,7 +11,7 @@
      content: '';
      left: 0;
      top: 0;
-     height: 88.6vh;
+     height: 90.7vh;
      width: 100%;
      background: linear-gradient(265.66deg, rgba(65, 176, 170, 0) 1.59%, #012E41 96.56%);
 }
@@ -116,7 +116,7 @@
           /* height: 100vh; */
       }
      .left-side-b{
-          margin-top: 60%;
+          margin-top: 53%;
           /* border: 2px solid red; */
           width: 100%;
           left: 0;
