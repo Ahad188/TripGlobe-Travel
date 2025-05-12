@@ -10,8 +10,8 @@ const WorldSection = () => {
                          With Triptopia</h2>
                          <p className='text-[#345867]  text-[16px] leading-6 font-[400px]'>Triptopia was born out of a shared passion for exploration and a desire to create
                          meaningful travel experiences. We believe travel is more than just visiting a place;</p>
-                         <div className='w-[400px] bg-[#DEF2F0] p-5 md:p-10 h-[134px] mt-1'>
-                        <h3 className='world-is-back sm:w-[500px] sm:text-[18px] '> The world is a book and those who do not travel
+                         <div className='md:w-[600px] bg-[#DEF2F0] p-5 md:p-10 h-[134px] mt-1'>
+                        <h3 className='world-is-back sm:w-[400px] sm:text-[18px] '> The world is a book and those who do not travel
                         read only one page.</h3>
                          </div>
                          <ul className='mt-3 ms-8'>
